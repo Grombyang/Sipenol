@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradasibg"
+    android:padding="24dp">
+
+
+    <EditText
+        android:id="@+id/username_register_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:drawableLeft="@drawable/ic_user"
+        android:hint="@string/username"
+        android:textColorHint="@color/lightPrimariColor"
+        android:textColor="@color/text"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/nomor_induk_register_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:drawableLeft="@drawable/ic_nip_register"
+        android:hint="Nomor Induk"
+        android:textColorHint="@color/lightPrimariColor"
+        android:textColor="@color/text"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/password_register_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:drawableLeft="@drawable/ic_lock_outline"
+        android:hint="@string/password"
+        android:textColorHint="@color/lightPrimariColor"
+        android:textColor="@color/text"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/repassword_register_text_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:drawableLeft="@drawable/ic_lock"
+        android:textColorHint="@color/lightPrimariColor"
+        android:textColor="@color/text"
+        android:hint="@string/re_type_password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="@string/register"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Sipenol</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_input">Input Pelanggaran</string>
+    <string name="title_activity_data">Data Pelanggaran</string>
+    <string name="register">register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="ganti_pass">Ganti Password</string>
+    <string name="password_lama">Password Lama</string>
+    <string name="password_baru">Password Baru</string>
+    <string name="re_type_password_baru">Re-type Password Baru</string>
+    <string name="jabatan">Status </string>
+    <string name="nip">Nip</string>
+    <string name="nama">Nama</string>
+    <string name="mahasiswa">Mahasiswa</string>
+    <string name="primary_text">Primary text</string>
+    <string name="secondary_text">Secondary text</string>
+</resources>
